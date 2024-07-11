@@ -4,7 +4,7 @@ This is a boilerplate React Native application created by Talha, incorporating R
 
 ## Introduction
 
-MyApp is a boilerplate mobile application built using React Native, designed to serve as a foundation for creating robust mobile applications. It includes pre-configured Redux state management, navigation with React Navigation, UI components from React Native Paper, and styling using Tailwind CSS.
+MyApp is a boilerplate mobile application built using React Native, designed to serve as a foundation for creating robust mobile applications. It includes pre-configured Redux state management, navigation with React Navigation, UI components from React Native Paper, and styling using Tailwind CSS and formik and yup for form validation and axios .
 
 ## Table of Contents
 
@@ -43,6 +43,9 @@ npm start
 - Redux
 - Talwind CSS
 - createNativeStackNavigator
+- yup
+- formik
+
 ## Configuration
 
 Ensure that all necessary modules are installed and configured according to your development environment.
