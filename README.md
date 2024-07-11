@@ -20,8 +20,8 @@ MyApp is a boilerplate mobile application built using React Native, designed to 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your/repository.git
-cd repository-name
+git clone https://github.com/iot-Noob/boilerplate-native.git
+cd boilerplate-native 
 ```
 ## Install dependencies:
 
