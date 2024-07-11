@@ -8,7 +8,7 @@ import store from './redux/store';
 import { useEffect } from 'react';
 import { AppRegistry } from 'react-native';
  import Talha from './screens/Talha'
-
+ 
 export default function App() {
  const Stack=createNativeStackNavigator()
   return (
