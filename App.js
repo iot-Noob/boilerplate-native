@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
@@ -7,23 +8,21 @@ import { Provider  } from 'react-redux';
 import store from './redux/store';
 import { useEffect } from 'react';
 import { AppRegistry } from 'react-native';
- import Talha from './screens/Talha'
- 
+ import StackScreens from './component/StackScreens';
+ import DrawerNavigators from './component/DrawerNavigators';
 export default function App() {
  const Stack=createNativeStackNavigator()
   return (
 
-    
 
     <Provider store={store}>
     <PaperProvider>
+   
       <NavigationContainer>
-
-        <Stack.Navigator>
-          <Stack.Screen name='About Talha' component={Talha}/>
-        </Stack.Navigator>
+       
+    
         <View style={styles.container}>
-     
+         
           <StatusBar style="auto" />
         </View>
       </NavigationContainer>
